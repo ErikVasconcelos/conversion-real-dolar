@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #323232;
+    text-align: center;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+}
+
+h1 {
+    color: #cfff00;
+    font-size: 50px;
+}
+
+input {
+    width: 140px;
+    height: 60px;
+}
+
+#input-real {
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-width: 7px;
+    border-color: green;
+}
+
+#input-dolar {
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-width: 7px;
+    border-color: gray ;
+}
+
+#dolares {
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid #cfff00;
+    border-radius: 10px;
+    background-color: #323232;
+    color: white;
+}
+
+button:hover {
+    color: #323232;
+    background-color: #cfff00;
+}

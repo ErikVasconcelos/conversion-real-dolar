@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <title>MyDolar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesconversion.css">
+</head>
+
+<body>
+    <img width="100%" src="./assets-conversion/my-dolar.gif">
+    <h1>Reais x Dolares</h1>
+<br>
+    <div>
+
+        <input id="input-real" type="number" placeholder="Valor em Reais">
+        <input id="input-dolar" type="number" placeholder="Valor do Dólar">
+<br><br>
+        <p id="dolares">Digite o valor em reais e o valor do dolar</p>
+<br>
+
+        <button onclick="calcularDolar()">Converter</button>
+    </div>
+</body>
+
+<script>
+
+    function calcularDolar(){
+        let real = document.getElementById("input-real").value //variável guarda valor do real digitado
+        let dolar = document.getElementById("input-dolar").value // varialvel guarda valor do dolar digitado
+
+        let resultado = real / dolar // variavel guarda o valor do resultado
+
+        dolares.innerHTML = '$ ' + resultado // insere o valor do resultado no nosso paragrafo
+
+        alert('O resultado é $'+ resultado + ' dólares') // mostra na tela o resultado
+    }
+
+
+</script>
+
+
+
+
+</html>
